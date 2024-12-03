@@ -32,10 +32,10 @@ y3_ddot = m1*(y1-y3)/(r31)^3 + m2*(y2-y3)/(r32)^3;
 
 
 dydt = [x1_dot; y1_dot;
-    x2_dot; y2_dot;
-    x3_dot; y3_dot;
-    x1_ddot; y1_ddot;
-    x2_ddot; y2_ddot;
-    x3_ddot; y3_ddot;];
+        x2_dot; y2_dot;
+        x3_dot; y3_dot;
+        x1_ddot; y1_ddot;
+        x2_ddot; y2_ddot;
+        x3_ddot; y3_ddot;];
 
 end
